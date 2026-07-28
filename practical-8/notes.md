@@ -1,4 +1,4 @@
-# Day 8 - Specificity, Units, and Display Properties
+# practical-8 - Specificity, Units, and Display Properties
 
 ## Overview
 This folder focuses on CSS behavior and layout control. It explains how CSS rules are prioritized, how size values work, and how elements are displayed.

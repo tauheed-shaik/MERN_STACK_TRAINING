@@ -1,4 +1,4 @@
-# Day 4 - Forms, SVG, and Embedded Content
+# practical-4 - Forms, SVG, and Embedded Content
 
 ## Overview
 This folder is about practical HTML elements beyond basic text and images. It introduces forms, input controls, SVG graphics, and embedded external content.

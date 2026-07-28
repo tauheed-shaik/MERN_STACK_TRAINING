@@ -1,4 +1,4 @@
-# Day 7 - Colors, Box Model, and Fonts
+# practical-7 - Colors, Box Model, and Fonts
 
 ## Overview
 This folder teaches the visual side of CSS. It introduces how colors are represented, how boxes are built in CSS, and how fonts and text styling are controlled.

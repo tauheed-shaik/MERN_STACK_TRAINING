@@ -1,4 +1,4 @@
-# Day 1 - First Web Page with HTML
+# Cat photo app - First Web Page with HTML
 
 ## Overview
 This folder is the first practical example of creating a complete webpage using HTML. The file shows how a simple website can be built using semantic structure, links, images, lists, and a footer.

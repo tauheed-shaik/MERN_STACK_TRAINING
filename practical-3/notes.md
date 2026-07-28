@@ -1,4 +1,4 @@
-# Day 3 - Images, Lists, Tables, and Media
+# practical-3 - Images, Lists, Tables, and Media
 
 ## Overview
 This folder focuses on content organization. It shows how students can present information using images, definition lists, ordered and unordered lists, tables, and media elements.

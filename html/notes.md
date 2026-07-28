@@ -1,4 +1,4 @@
-# Day 2 - HTML, CSS, and JavaScript Basics
+# html - HTML, CSS, and JavaScript Basics
 
 ## Overview
 This folder introduces the basic relationship between HTML, CSS, and JavaScript. It shows how a webpage can be styled and how a simple script can be connected to it.

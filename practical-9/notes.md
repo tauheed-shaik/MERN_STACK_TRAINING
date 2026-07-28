@@ -1,4 +1,4 @@
-# Day 9 - Shadows, Lists, Overflow, and Positioning
+# practical-9 - Shadows, Lists, Overflow, and Positioning
 
 ## Overview
 This folder introduces some advanced CSS properties that improve layout and visual design. The files show how to add shadows, style lists, control overflow, and position elements on the page.

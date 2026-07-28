@@ -1,4 +1,4 @@
-# Day 5 - Semantic Tags, Entities, and Styling Basics
+# practical-5 - Semantic Tags, Entities, and Styling Basics
 
 ## Overview
 This folder combines layout, semantic structure, text formatting, and CSS styling. It is one of the most important folders for understanding how webpages are organized and made visually attractive.

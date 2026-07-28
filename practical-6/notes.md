@@ -1,4 +1,4 @@
-# Day 6 - CSS Selectors
+# practical-6 - CSS Selectors
 
 ## Overview
 This folder focuses on CSS selectors, which are the rules used to target HTML elements and apply styling to them.
