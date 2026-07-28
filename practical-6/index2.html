@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /* element selectore */
+        h1 {
+            color: red;
+        }
+        
+        /* id selector */
+        #green {
+            background-color: green;
+        }
+        /* class selector */
+        .blue {
+            color: blue;
+        }
+        /*child selector */
+    
+        div > p {
+            color: rgb(50, 118, 173);
+        }
+        /* descendant selector */
+        div  h3 {
+            color: rgb(0, 225, 255);
+        }
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a:visited{
+            color:brown;
+        }
+        a:link{
+            color:green;
+        }
+        a:active{
+            color:yellow;
+        }
+        a:hover{
+            background-color:chartreuse;
+        }
+    .xyz h1{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selectors</h1>
+    <div>
+        <p>This is a paragraph.</p>
+    </div>
+    <div id="green">
+        <h3>This is a heading</h3>
+        <p>This is a another paragraph.</p>
+    </div>
+    <div class="blue">
+        <article><h3>This is a heading</h3></article>
+        <p>This is a third paragraph.</p>
+    </div>
+    <a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">Click here to learn more about CSS Selectors</a>
+    <a href="https://www.google.com" target="_blank">Open Google</a>
+
+    <div class="abc ">
+        <div class="abcd xyz">
+            <h1>This is a heading</h1>
+            <p>This is a paragraph.</p>
+
+        </div>
+        <div class="abcde zyx">
+            <h2>This is another heading</h2>
+            <p>This is another paragraph.</p>
+        </div>
+    </div>
+
+</body>
+</html>
