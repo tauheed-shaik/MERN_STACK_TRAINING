@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Float & Clear</title>
+    <style>
+        .cards{
+            border: 2px solid black;
+        }
+        .card{
+            border: 2px solid blue;
+        }
+        img{
+            float:left;
+        }
+        .card:nth-child(3){
+            background-color:antiquewhite;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="cards">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/054/876/032/small/mirror-image-snow-capped-mountain-peaks-reflected-in-pristine-lake-free-photo.jpg" alt="">
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, culpa. Nihil, temporibus accusantium! Est ad pariatur repudiandae esse id voluptas!</p>
+        </div>
+        <div class="card">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, omnis? Mollitia esse enim, assumenda numquam harum aut, iusto asperiores necessitatibus vel quasi a maiores atque minima quam quas, nemo soluta non! Laudantium illo blanditiis accusamus, assumenda vero temporibus aliquam dolorem ipsum voluptas voluptate placeat, non obcaecati ullam quod optio? Fugiat.
+        </div>
+        <div class="card">Card 3</div>
+    </div>
 </body>
 </html>
