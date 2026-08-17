@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my animation</title>
+    <style>
+        .container {
+            background-color: rgb(191, 237, 106);
+            width: 90vw;
+            height: 80vh;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .box {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: aqua;
+            position: absolute;
+            bottom: 0;
+            animation: bounceMove 3s ease-in-out infinite;
+        }
+
+        
+        .circle {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            background-color: rgb(0, 0, 0);
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        @keyframes bounceMove {
+            0% {
+                transform: translateX(0) translateY(0);
+            }
+            25% {
+                transform: translateX(20vw) translateY(-120px);
+            }
+            50% {
+                transform: translateX(40vw) translateY(0);
+            }
+            75% {
+                transform: translateX(60vw) translateY(-120px);
+            }
+            100% {
+                transform: translateX(80vw) translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="circle"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
