@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Keyboard Event</title>
+</head>
+<body>
+
+    <h1>Press any key</h1>
+
+    <script>
+        document.addEventListener("keydown", (e) => {
+            console.log(e);
+            console.log("Key:", e.key);
+            console.log("Key Code:", e.keyCode);
+        });
+    </script>
+
+</body>
+</html>
