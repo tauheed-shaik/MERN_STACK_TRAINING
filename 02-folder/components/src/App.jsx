@@ -1,12 +1,16 @@
-import Navbar from './components/Navbar.jsx'
-import Card from '.src/components/Card.jsx'
 import React from 'react'
+import Text from './components/Text.jsx'
+import Navbar from './components/Navbar.jsx'
+import Card from './components/Card.jsx'
 
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      <Card/>
+       <Navbar/>
+       <Card/>
+       <Card/>
+       <Card/>
+       <Card/>
     </div>
   )
 }

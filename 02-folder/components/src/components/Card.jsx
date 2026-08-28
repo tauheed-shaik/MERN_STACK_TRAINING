@@ -4,8 +4,8 @@ const Card = () => {
   return (
     <div>
       <div className="card">
-        <h1>Tauheed</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, aspernatur.</p>
+        <h1>Sarthak</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, placeat? Unde, architecto.</p>
       </div>
     </div>
   )
