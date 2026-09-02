@@ -5,7 +5,7 @@ const RightCardContent = (props) => {
     <div>
       <h2>{props.id+1}</h2>
       <div>
-    
+        
       </div>
     </div>
   )
